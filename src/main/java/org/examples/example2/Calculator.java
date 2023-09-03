@@ -1,7 +1,6 @@
-package dependencyinversionprinciple;
-
+package org.examples.example2;
 public class Calculator {
-
+    // violate DIP:
     public double Add(double x, double y) {
         return x + y;
     }
@@ -10,7 +9,8 @@ public class Calculator {
         return x - y;
     }
 
-    /*public void calculate(CalculatorOperation operation) {
-        operation.performOperation();
-    }*/
+//    // Applying DIP:
+//    public void calculate(CalculatorOperation operation) {
+//        operation.performOperation();
+//    }
 }

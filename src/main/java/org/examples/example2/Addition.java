@@ -1,4 +1,4 @@
-package dependencyinversionprinciple;
+package org.examples.example2;
 
 public class Addition implements CalculatorOperation {
     private double left;
