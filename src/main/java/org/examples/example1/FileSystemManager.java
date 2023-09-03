@@ -1,4 +1,4 @@
-package org.example;
+package org.examples.example1;
 
 public class FileSystemManager implements Storage{
     public void save(String name) {
